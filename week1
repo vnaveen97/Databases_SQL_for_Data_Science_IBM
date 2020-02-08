@@ -1,0 +1,30 @@
+--- Creating a table called Instructor
+CREATE  TABLE instructor (
+ins_id INT PRIMARY KEY NOT NULL,
+lastname VARCHAR(30) NOT NULL,
+Firstname VARCHAR(30) NOT NULL,
+city VARCHAR(15),
+Country CHAR(2)
+);
+
+-- Inserting Values into the table Instructor
+INSERT INTO instructor
+(ins_id,Lastname,Firstname,city,Country)
+VALUES 
+(1,'Ahuja','Rav','Toronto','CA'),
+(2,'Chong','Raul','Toronto','CA'),
+(3,'Vasudevan','Hima','Chicago','US');
+
+SELECT * FROM instructor;
+
+SELECT Firstname,Lastname,Country FROM instructor
+WHERE city = 'Toronto';
+
+UPDATE instructor
+SET city = 'Markham'
+WHERE ins_id = 1;
+
+DELETE FROM instructor
+WHERE ins_id = 2;
+
+SELECT * FROM instructor
