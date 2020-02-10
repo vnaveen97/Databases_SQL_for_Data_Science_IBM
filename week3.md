@@ -397,8 +397,7 @@ plot = sns.jointplot(x='per_capita_income_',y='hardship_index', data=income_vs_h
     Done.
 
 
-
-![png](output_26_1.png)
+![png](https://github.com/vnaveen97/Databases_SQL_for_Data_Science_IBM/blob/master/output_26_1.png)
 
 
 We can see that as Per Capita Income rises as the Hardship Index decreases. We see that the points on the scatter plot are somewhat closer to a straight line in the negative direction, so we have a negative correlation between the two variables. 
