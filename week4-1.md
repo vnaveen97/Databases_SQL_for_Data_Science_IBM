@@ -40,24 +40,6 @@ Let us now load the ipython-sql  extension and establish a connection with the d
 ```
 
 
-```python
-{
-  "db": "BLUDB",
-  "dsn": "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=jqv77754;PWD=hcg@sfkcm5v1dzs5;",
-  "host": "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net",
-  "hostname": "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net",
-  "https_url": "https://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net",
-  "jdbcurl": "jdbc:db2://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50000/BLUDB",
-  "parameters": {},
-  "password": "hcg@sfkcm5v1dzs5",
-  "port": 50000,
-  "ssldsn": "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=jqv77754;PWD=hcg@sfkcm5v1dzs5;Security=SSL;",
-  "ssljdbcurl": "jdbc:db2://dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;",
-  "uri": "db2://jqv77754:hcg%40sfkcm5v1dzs5@dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net:50000/BLUDB",
-  "username": "jqv77754"
-}
-```
-
 
 ```python
 # Enter the connection string for your Db2 on Cloud database instance below
